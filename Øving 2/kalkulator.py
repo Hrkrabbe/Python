@@ -38,7 +38,7 @@ def main():
         except ValueError:
             print("Invalid syntax")
         except ZeroDivisionError:
-            print("Selfdestruct sequence initiated")
+            print("I'm sorry, Dave. I'm afraid I can't do that")
     
 def add(x,y):
     return x+y

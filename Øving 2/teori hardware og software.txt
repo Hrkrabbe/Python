@@ -1,0 +1,17 @@
+a) 	Primærlager - hurtiglager for midlertidig lagring av informasjon. F.eks ram.
+	Sekunderlager - permanent lagring av informasjon. F.eks harddisk, ssd, minnekort.
+
+b)	SSD: permanent, tilfeldig aksess.
+	RAM: volatilt, tilfeldig aksess.
+	HDD: permanent, sekvensiell aksess
+
+c)	Silisum er den den halvlederen tåler mest varme. De ledende egenskapene til silisum er også lettere å endre på enn andre halvledere.
+
+
+d) 	Informasjon lagres og behandles digitalt som bytes. En byte er en serie med 8 enere eller nullere kalt bits.
+
+e) 	32000 / 40 = 800 bps
+
+d)	Operativssystemet fungerer som et grensesnitt mellom maskinvaren og programvaren. Operativsystemet kjører i grunnen og alle programmer
+	kommuniserer med maskinvaren via. dette. Operativssytemet fungerer også som et grensesnitt mot brukeren, der brukeren kan navigere mellom
+	programvare og filer.
