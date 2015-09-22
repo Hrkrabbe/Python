@@ -1,0 +1,37 @@
+Teori 2
+a) pseudokode er tekst som minner om kode, men som ikke er i nærtheten av å være kjørbart. Kan være nyttig for å
+beskrive et program f.eks. i planleggingsfasen av programmet.
+
+speilegg = ovn.stek(egg, time, false)
+
+def: stek(stekbart obj, cookingtime, flip):
+	skruPåStekeplate(1)
+	stekepanne.plasserPåStekeplate(1)
+	stekepanne.HaISmør()
+	obj.prepare()
+	stekepanne.load(obj)
+	wait(time/2)
+	if(flip):
+		stekepanne.flip()
+	wait(time/2)
+	skruAvStekeplate(1)
+	return(stekepanne.Obj)
+	
+b) Et flytdiagram beskriver flyten i koden grafisk ved å vise klasser og metoder og kommunikasjonen mellom disse.
+
+c) Debugging er feilsøking i koden ved å kontinuerlig skrive ut variabler under kjøring som ellers ikke ville
+vært vist i det ferdige programmet. Slik at man kan gå igjennom koden stegvis og lokalisere evt. feil.
+
+d) Høynivå-programmeringsspråk er mer abstrakt. Dvs. koderen trenger ikke tenke så mye på instrukser som 
+utføres på maskinnivå, men kan heller fokusere funksjonalitet.
+Lavninå-programmeringsspråk som assembly og maskinkode er mye mer direkte mhp. sammenhengen mellom kode og tilsvarende
+instrukser som utføres.
+
+e) 
+(0). Starter syklusen når strømmen skrus på. PC viser til en predefinert adresse i ROM som booter operativsystemet.
+1. Instruksjonen blir hentet fra minneadressen PC viser til og lagret i instruksjonsregisteret IR. PC endres til å vise til neste instruksjon.
+2. Instruksjonen blir dekodet slik at CPU vet hvor mange operasjoner som skal utføres for å fullføre instruksen.
+3. Finner effektiv minneadresse og bestemmer hvilken type operasjon som skal utføres.
+4. Utfører instruksjonen. 
+
+f) Holder minneadressen for instruksen som skal utføres neste.
