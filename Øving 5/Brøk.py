@@ -1,7 +1,8 @@
 def main():
     a = int(input("Teller:"))
     b= int(input("Nevner:"))
-    print("Forkortet brøk: {0}/{1}".format(reduce_fraction(a,b)[0],reduce_fraction(a,b)[1]))
+    res=reduce_fraction(a,b)
+    print("Forkortet brøk: {0}/{1}".format(res[0],res[1]))
     
 def gcd(a,b):
     while(b!=0):
