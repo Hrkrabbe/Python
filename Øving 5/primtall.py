@@ -2,8 +2,8 @@ import math
 primes=[]
 def main():
     loadPrimes()            #Oppretter liste med alle primtallene i filen primtall.txt
-    print(isPrime(19997))   #Sjekker om det gitte tallet er et primtall
-    #findPrimes(1000)       #Finner alle primtall opptil argumentet og lagrer i primtall.txt
+    #print(isPrime(19997))   #Sjekker om det gitte tallet er et primtall
+    findPrimes(2000)       #Finner alle primtall opptil argumentet og lagrer i primtall.txt
     
 def isPrime(a):
     for p in primes:
