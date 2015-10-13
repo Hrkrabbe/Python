@@ -1,0 +1,8 @@
+Teori 3
+a) I binær som konverteres til tegn ved hjelp av standard enkoding, som f.eks. ASCII der hver byte representerer ett tegn
+b) 64 2.2251e-308
+c) binær: 10010 hexadesimal: 12
+d) 010011110100110001000101
+e) Den minste byggestenen av et bilde, der en pixel presenterer en farge. Brukes for å lagre bilder og vise de på skjerm.
+f) Analog lyd representerer lydbølgen realistisk, mens digital audio deler den opp i "Samplesizes". Man kan konvertere fra analog til digital, men ikke omvendt. 	
+g) Data som beskriver data
