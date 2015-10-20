@@ -1,19 +1,29 @@
 __author__ = 'Anders'
 import random
 def main():
+    myGuess = [4,8,15,16,23,32,10]
+    winningNumbers = []
+    tries = 0
+    mainHits = 0
     numbers = []
     for n in range(1,35):
         numbers.append(n)
-    myGuess = [4,8,15,16,23,32]
 
-    winningNumbers = drawNumbers(numbers,10)
-    mainHits = compList(winningNumbers[:len(winningNumbers)-3],myGuess)
-    extraHits = compList(winningNumbers[len(winningNumbers)-3:],myGuess)
+    while(True):
+        tries+=1
+        winningNumbers = drawNumbers(numbers[:],7)
+        mainHits = compList(winningNumbers,myGuess)
+        if(tries%10000 == 0):
+            print(tries)
+        if(mainHits == 7):
+            break
+    #extraHits = compList(winningNumbers[len(winningNumbers)-3:],myGuess)
     prize=calculatePrize(winningNumbers,3,myGuess)
 
     print("Vinnertall: ",winningNumbers)
-    print("Antall rette: ", mainHits, "+", extraHits)
+    print("Antall rette: ", mainHits)
     print("Premie: ",prize)
+    print("Antall forsok: ", tries)
 
 def drawNumbers(numbers,n):
     drawnNumbers = []

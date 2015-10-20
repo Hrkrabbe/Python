@@ -8,6 +8,29 @@ def main():
     F = integralSinXSimpsons(0,math.pi,100)
     print(F)
 
+    F = integral(0,math.pi,100,math.sin)
+    print(F)
+
+    F = integral(0,1,100,f)
+    print(F)
+
+def sinX(x):
+    return math.sin(x)
+
+def exp(x):
+    return math.exp(x)
+
+def f(x):
+    y = x**2
+    return y
+
+def integral(a,b,N,func):
+    sum = 0
+    h = (b-a)/N
+    for i in range(N+1):
+        sum += func(i*h+h/2+a)*h
+    return sum
+
 def integralSinX(a,b,N):
     sum = 0
     h = (b-a)/N
