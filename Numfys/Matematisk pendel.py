@@ -1,8 +1,7 @@
 #! /usr/bin/env python3
 # -*- coding: UTF-8 -*-
 
-from numpy import log,linspace
-from matplotlib.pyplot import rc,figure,title,xlabel,ylabel,plot,legend,hold,show, savefig
+from matplotlib.pyplot import figure,title,xlabel,ylabel,plot,legend,hold,show, savefig, grid, ylim
 import math
 
 def main():
@@ -24,7 +23,7 @@ class Pendel:
         self.theta0 = theta0
         self.v0 = v0
         self.g = 9.81
-        self.delta_t = 0.001
+        self.delta_t = 0.0001
         self.TwoT = TwoT
         
         
@@ -68,8 +67,9 @@ class Pendel:
         title(r'$v_0=$ ' + str(self.v0))
         xlabel(r'$t(s)$')
         ylabel(r'$\theta(grader)$')
-        hold(True)
+        #hold(True)
         plot(t,thetaList)
+        grid()
         show()
         savefig(fName+'.png')
         
@@ -78,9 +78,11 @@ class Pendel:
         figure(fName)
         title(r'$v_0=$ ' + str(self.v0))
         xlabel(r'$t(s)$')
-        ylabel(r'$e/m (m^2/s^2$')
-        hold(True)
+        ylabel(r'$e/m (m^2/s^2)$')
+        ylim(15,25)
+        #hold(True)
         plot(t,e)
+        grid()
         show()
         savefig(fName+'.png')
 main()
