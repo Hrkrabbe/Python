@@ -1,0 +1,10 @@
+a) Distribusjonsnettverk: Posten, dagligvarekjeder, bibliotek
+Kommunikasjonsnettverk: Telefoni, internett, Posten
+b) Analoge signaler er bølger med kontinuerlige intervall av verdier. Digitale signaler er oppstykket slik at de tolks som 0 eller 1.
+c) Teroemet sier at for å ikke miste data ved konvertering fra analogt signal til digitalt, må samplingfrekvensen være over det dobblete av maksimal bølgefrekvens.
+d) Forstyrrelser ved overføring.
+e) Ingen.
+f) Sikkerhet, rekkevidde, pakketap, forstyrrelse fra andre trådløse kilder.
+g) Ett sett med regler som definerer kommunikasjon.
+i) Informsjonskapsler som nettleseren lagrer for ett gitt nettsted.
+j) Ved å kryptere innholdet.
